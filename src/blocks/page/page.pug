@@ -1,0 +1,13 @@
+include ../header/header
+include ../line/line
+include ../content/content
+include ../footer/footer
+
+mixin page
+    main.page
+        .page__wrapper
+            +header
+            +line
+            +content
+            +line
+            +footer

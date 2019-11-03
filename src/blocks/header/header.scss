@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0.167in;
+
+  &__1 {
+    width: 1.69in;
+    height: 1.5in;
+    background: #777777;
+  }
+
+  &__2 {
+    width: 3.88in;
+    height: 1.5in;
+    background: #777777;
+
+  }
+
+  &__3 {
+    width: 7.13in;
+    height: 1.5in;
+    background: #777777;
+
+    &-list {
+      text-align: right;
+      color: white;
+      list-style: none;
+      margin: 0.333in 0.333in 0 0;
+    }
+  }
+}

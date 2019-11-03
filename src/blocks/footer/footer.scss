@@ -1,0 +1,62 @@
+.footer {
+  margin-top: 0.167in;
+  margin-bottom: 0.5in;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__10 {
+    width: 4.13in;
+    height: 2.5in;
+    background: #777777;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    &-list {
+      &-left {
+        list-style: none;
+        color: white;
+        padding: 0.167in;
+        margin-left: 0.167in;
+      }
+
+      &-right {
+        list-style: none;
+        color: white;
+        padding: 0.167in;
+      }
+    }
+  }
+
+  &__11 {
+    width: 4.13in;
+    height: 2.5in;
+    background: #777777;
+
+    &-list {
+      list-style: square;
+      padding: 0.167in;
+      margin-left: 0.167in;
+      color: white;
+    }
+  }
+
+  &__12-13-container {
+    width: 4.13in;
+    height: 2.5in;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__12 {
+    height: 1.08in;
+    background: #777777;
+  }
+
+  &__13 {
+    height: 1.08in;
+    background: #777777;
+  }
+}

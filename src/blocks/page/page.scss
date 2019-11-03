@@ -1,0 +1,12 @@
+.page {
+  margin: auto;
+  width: 13.033in;
+  align-self: center;
+  margin-top: 0.333in;
+  
+  &__wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
